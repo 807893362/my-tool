@@ -18,4 +18,5 @@ public class DemoApplication {
         Logger logger = LoggerFactory.getLogger(DemoApplication.class);
         logger.info("=================SpringBootApplication已启动==================");
     }
+    
 }
