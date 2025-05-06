@@ -1,0 +1,107 @@
+# -----------------------
+# Java 通用忽略规则
+# -----------------------
+
+# 编译输出
+/bin/
+/build/
+/out/
+/target/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+*.bak
+*.orig
+*.rej
+*.sublime-workspace
+
+# -----------------------
+# IDE / 工具文件
+# -----------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -----------------------
+# 系统文件
+# -----------------------
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# -----------------------
+# Java 缓存文件
+# -----------------------
+
+*.class
+*.jar
+*.war
+*.ear
+
+# -----------------------
+# 环境配置（建议手动添加）
+# -----------------------
+
+.env
+*.local
+*.config
+
+# -----------------------
+# SSL / Key 文件（如你的 Netty 项目中）
+# -----------------------
+
+*.jks
+*.keystore
+*.pem
+*.crt
+*.key
+
+# -----------------------
+# 临时输出或用户文件
+# -----------------------
+
+*.log
+*.pid
+*.seed
+*.lock
+*.bak
+
+# -----------------------
+# 运行时数据
+# -----------------------
+
+hs_err_pid*
+replay_pid*
+
+# -----------------------
+# Maven / Gradle 缓存（可选，通常不建议忽略 ~/.m2）
+# -----------------------
+
+# ~/.m2/
+.gradle/
